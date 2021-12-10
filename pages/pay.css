@@ -1,0 +1,198 @@
+    @media screen and (min-width: 981px) {
+        html {
+            font-size: 62.5%;
+        }
+    }
+    
+    @media screen and (min-width: 481px) and (max-width: 980px) {
+        html {
+            font-size: 9px;
+        }
+    }
+    
+    @media screen and (max-width: 480px) {
+        html {
+            font-size: 8px;
+        }
+    }
+    
+    body {
+        background: #22363D;
+        font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Open Sans", "Helvetica Neue", "Segoe UI", sans-serif;
+        font-size: 1.6rem;
+        margin: 0;
+    }
+    
+    .demo {
+        min-height: 600px;
+        box-sizing: border-box;
+        position: relative;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: .8;
+        margin-top: 40px;
+    }
+    
+    .footer {
+        padding: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    a {
+        color: #000;
+    }
+    
+    a:focus {
+        outline: 2px solid #D9BDA0;
+    }
+    
+    a:hover {
+        text-decoration: none;
+    }
+    
+    .melnik909 {
+        margin-left: 2rem;
+    }
+    
+    .payment-card {
+        width: 70rem;
+    }
+    
+    .payment-card__footer {
+        text-align: center;
+        margin-top: 2rem;
+    }
+    
+    .bank-card {
+        position: relative;
+    }
+    
+    @media screen and (min-width: 481px) {
+        .bank-card {
+            height: 30rem;
+        }
+        .bank-card__side_front {
+            background-color: #045775;
+            padding: 5%;
+            border-color: #a29e97;
+            top: 0;
+            left: 0;
+            z-index: 3;
+        }
+    }
+    
+    .bank-card__inner {
+        margin-bottom: 4%;
+    }
+    
+    .bank-card__inner:last-child {
+        margin-bottom: 10px;
+    }
+    
+    .bank-card__label {
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: 10px;
+    }
+    
+    .bank-card__label_holder,
+    .bank-card__label_number {
+        width: 100%;
+    }
+    
+    @media screen and (min-width: 481px) {
+        .bank-card__month,
+        .bank-card__year {
+            width: 49.5%;
+        }
+    }
+    
+    @media screen and (max-width: 480px) {
+        .bank-card__month,
+        .bank-card__year {
+            width: 48%;
+        }
+    }
+    
+    @media screen and (min-width: 481px) {
+        .bank-card__cvc {
+            width: 100%;
+        }
+    }
+    
+    @media screen and (max-width: 480px) {
+        .bank-card__cvc {
+            width: 100%;
+            margin-top: 4%;
+        }
+    }
+    
+    .bank-card__caption {
+        text-transform: uppercase;
+        font-size: 1.1rem;
+        margin-left: 1%;
+    }
+    
+    .bank-card__field {
+        box-sizing: border-box;
+        border: 3px solid #d0d0ce;
+        width: 100%;
+        padding: 1rem;
+        font-family: inherit;
+        font-size: 100%;
+        border-radius: 5px;
+    }
+    
+    .bank-card__field:hover {
+        outline: none;
+        border-color: #fefefe;
+    }
+    
+    .bank-card__field:focus {
+        outline: none;
+        border-color: #fdde60;
+    }
+    
+    @media screen and (min-width: 481px) {
+        .bank-card__footer {
+            background-image: url("https://stas-melnikov.ru/demo-icons/mastercard-colored.svg"), url("https://stas-melnikov.ru/demo-icons/visa-colored.svg");
+            background-repeat: no-repeat;
+            background-position: 78% 50%, 100% 50%;
+        }
+    }
+    
+    @media screen and (max-width: 480px) {
+        .bank-card__footer {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    
+    .payment-card__button {
+        background-color: #BA674E;
+        transition: background-color .4s ease-out;
+        margin-top: 330px;
+        border-radius: 5px;
+        border: 3px solid transparent;
+        cursor: pointer;
+        padding: 1rem 6.5rem;
+        font-size: 100%;
+        font-family: inherit;
+        color: #fff;
+        width: 100%;
+    }
+    
+    .payment-card__button:focus {
+        outline: none;
+        border-color: #fdde60;
+    }
+    
+    .payment-card__button:hover,
+    .payment-card__button:focus {
+        background-color: #8e8b85;
+    }
